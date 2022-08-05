@@ -3,4 +3,4 @@ import Home from './Home';
 import CreatePost from './CreatePost';
 import PostDetail from './PostDetail';
 
-export {Navbar, Home, CreatePost, PostDetail};
+export { Navbar, Home, CreatePost, PostDetail };

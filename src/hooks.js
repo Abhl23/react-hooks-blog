@@ -1,14 +1,14 @@
-import {useState} from 'react';
+import { useState } from 'react';
 
-export function useFormInput(initialValue){
-    const [value, setValue]=useState(initialValue);
+export function useFormInput(initialValue) {
+  const [value, setValue] = useState(initialValue);
 
-    function handleChange(e){
-        setValue(e.target.value);
-    }
+  function handleChange(e) {
+    setValue(e.target.value);
+  }
 
-    return {
-        value,
-        onChange : handleChange
-    };
+  return {
+    value,
+    onChange: handleChange,
+  };
 }
